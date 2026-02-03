@@ -1,0 +1,27 @@
+## constitution
+
+根据 ./w5/pg-mcp/docs/TEST_QUERIES.md 及 TEST_RESULTS.md 里面所说的几个缺失的功能：
+
+1. 多数据库与安全控制​功能虽在设计中有承诺，但实际未能启用：服务器始终使用单一执行器，无法强制实施表 / 列访问限制或 EXPLAIN 策略，这可能导致请求访问错误数据库，且敏感对象无法得到保护。
+2. 弹性与可观测性模块（如速率限制、重试 / 退避机制、指标 / 追踪系统）仅停留在设计层面，尚未整合到实际请求处理流程中。
+3. 响应 / 模型缺陷（重复的 to_dict 方法、未使用的配置字段）及测试覆盖不足，导致当前系统行为偏离实施方案，且难以进行有效验证。   
+
+构建 pg-mcp 的设计文档，文档放在 ./w2/db_query/docs/Homework/W5 Homework/0002-pg-mcp-design_fix.md 文件中。
+
+
+## 实现fix
+按照 ./w2/db_query/docs/Homework/W5 Homework/0002-pg-mcp-design_fix.md 开始第一阶段
+
+
+## 验证标准
+
+1. 多数据库与安全控制功能虽在设计中有承诺，但实际未能启用：服务器始终使用单一执行器，无法强制实施表 / 列访问限制或 EXPLAIN 策略，这可能导致请求访问错误数据库，且敏感对象无法得到保护。
+2. 弹性与可观测性模块（如速率限制、重试 / 退避机制、指标 / 追踪系统）仅停留在设计层面，尚未整合到实际请求处理流程中。
+3. 响应 / 模型缺陷（重复的 to_dict 方法、未使用的配置字段）及测试覆盖不足，导致当前系统行为偏离实施方案，且难以进行有效验证。Logolo
+
+
+## commit to git
+
+我有個github https://github.com/winghoing58-dev?tab=repositories
+
+我想把pg-mcp 的項目代碼, 放在我的github 上, 幫我建立一個新的 repository, 並且把代碼和文檔放上去, 並且把這個 repo 設為 pubile, 這這一份的內容放在w5homework, 并把原有的放在w2homework

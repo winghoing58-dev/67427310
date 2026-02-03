@@ -1,0 +1,18 @@
+## constitution
+
+@w2\db_quary 的基礎上, 在查詢後, 會自動提示, 是吾需要以 csv 或 Json 格式的導出, 另外也增加一個按鈕, 可以手動導出現有的查詢結果．根据你了解的知识，构建一个详细的设计文档，
+放在 .w2/db_query/docs/Homework/0001-design.md 文件中，输出为中文，使用 mermaid 绘制架构，设计，组件，流程等图表并详细说明。@w2\db_quary 的基礎上, 在查詢後, 會自動提示, 是否需要以 csv 或 Json 格式的導出, 另外也增加一個按鈕, 可以手動導出現有的查詢結果．根据你了解的知识，构建一个详细的设计文档，放在 ./w2/db_query/docs/Homework/0001-design.md 文件中，输出为中文，使用 mermaid 绘制架构，设计，组件，流程等图表并详细说明。 
+另將設計思路放在./w2/db_query/docs/Homework/FEATURE_EXPORT.md 文檔內
+
+## implementation plan
+按照 ./w2/db_query/docs/Homework/0001-design.md 中的需求和设计文档，生成一个详细的实现计划，放在 ./w2/db_query/docs/Homework/0002-implementation-plan.md 文件中，输出为中文。
+
+
+## phased implementation
+按照 ./w2/db_query/docs/Homework/0002-implementation-plan.md 完整实现这个项目代碼 
+
+## commit to git
+
+我有個github https://github.com/winghoing58-dev?tab=repositories
+
+我想把db_quary 的項目代碼, 及 .\w2\db_query\docs\Homework\FEATURE_EXPORT.md, 放在我的github 上, 幫我建立一個新的 repository, 並且把代碼和文檔放上去, 並且把這個 repo 設為 pubile
